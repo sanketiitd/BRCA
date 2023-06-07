@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rendezvous Registration</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: url('https://i.pinimg.com/originals/d7/a6/11/d7a61190a836bdcfc62bf97af4f4c74b.png') repeat;
+    }
+
+    /* Header styles */
+    header {
+      background: linear-gradient(135deg, #00b8ff, #5f27cd);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: "Arial Black", sans-serif;
+      font-size: 48px;
+      margin: 0;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    /* Main content styles */
+    main {
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      font-family: "Arial Black", sans-serif;
+      color: #333;
+    }
+
+    form {
+      display: inline-block;
+      text-align: left;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    textarea#address {
+      height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+
+    /* Blinking stars animation */
+    @keyframes blinking-stars {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+   
+    
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rendezvous</h1>
+  </header>
+  
+  <main>
+    <h2>Register for RDV</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+      
+      <label for="phone">Phone No:</label>
+      <input type="text" id="phone" name="phone" required>
+      
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+      
+  
+      
+      <label for="college">College:</label>
+      <input type="text" id="college" name="college" required>
+      
+      
+      <input type="submit" value="Register">
+    </form>
+  </main>
+  
+  <footer>
+    &copy; 2023 Rendezvous IITD
+  </footer>
+</body>
+</html>
